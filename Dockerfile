@@ -2,14 +2,15 @@
 # Released under the MIT license
 # https://opensource.org/licenses/MIT
 
-FROM ubuntu:18.04
+FROM ubuntu:22.04
 
-MAINTAINER Futa HIRAKOBA
+# MAINTAINER Futa HIRAKOBA
+MAINTAINER Shohei Fujii
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y \
     xdvik-ja \ 
-    evince \
+    # evince \
     texlive-lang-cjk \
     latexmk \
     language-pack-ja \

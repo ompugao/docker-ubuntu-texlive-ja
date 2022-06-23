@@ -8,6 +8,5 @@
 ## Usage
 
 ```bash
-cd sample
-docker run --rm -it -v $PWD:/workdir korosuke613/ubuntu-texlive-ja latexmk sample.tex
+docker build -t ompugao/docker-ubuntu-texlive-ja .
 ```
