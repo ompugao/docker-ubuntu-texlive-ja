@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y \
     wget \
     xzdec \
     texlive-latex-extra \
+    texlive-science \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
